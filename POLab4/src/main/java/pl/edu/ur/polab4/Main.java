@@ -27,12 +27,21 @@ public class Main {
         nr_indeks = scanner.nextInt();
         System.out.println("Podaj nazwa_specjalności");
         nazwa_specjalności = scanner.nextLine();
+        nazwa_specjalności = scanner.nextLine();
         System.out.println("Podaj rok_studiow");
         rok_studiow = scanner.nextInt();
 
 
         Student stud = new Student( imie,  nazwisko,  wiek,  nr_indeks,  nazwa_specjalności,  rok_studiow);
         stud.pokazDane();
+
+
+        //Zadanie 4
+        System.out.println("Zadanie 4 ");
+
+
+
+
     }
 
 }
