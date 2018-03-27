@@ -86,6 +86,16 @@ public class Student {
         System.out.println("nazwa_specjalności : " + this.nazwa_specjalności + " lat");
         System.out.println("rok_studiow: " + this.rok_studiow + " lat");
     }
+
+
+    public void podajDane(String imie, String nazwisko, int wiek, int nr_indeks, String nazwa_specjalności, int rok_studiow) {
+        this.imie = imie;
+        this.nazwisko=nazwisko;
+        this.wiek = wiek;
+        this.nr_indeks = nr_indeks;
+        this.nazwa_specjalności = nazwa_specjalności;
+        this.rok_studiow = rok_studiow;
+    }
     //postgres
     //jarki
     //soup
